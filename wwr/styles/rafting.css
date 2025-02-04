@@ -1,0 +1,77 @@
+/* Define CSS Variables */
+:root {
+    --primary-color: #004aad;
+    --secondary-color: #ffcc00;
+    --font-family: 'YourChosenFont', sans-serif;
+}
+
+/* General Styles */
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background: var(--secondary-color);
+}
+
+header img {
+    max-height: 50px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer .sociallinks img {
+    height: 24px;
+    margin: 0 5px;
+    text-decoration: none;
+}

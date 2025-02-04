@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Whitewater Rafting. Contact us for reservations, inquiries, and feedback. Find our phone number, email, and location.">
+    <meta name="author" content="Michael Akpan">
+    <title>Contact Us - Whitewater Rafting</title>
+    <link rel="stylesheet" href="rafting.css">
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <h1>Whitewater Rafting</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Contact Information Section -->
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p><strong>📍 Address:</strong> 123 River Street, Boise, ID 83702</p>
+            <p><strong>📞 Phone:</strong> (208) 555-1234</p>
+            <p><strong>📧 Email:</strong> info@whitewaterrafting.com</p>
+        </section>
+
+        <!-- Google Map Section -->
+        <section class="map">
+            <h2>Find Us Here</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345091295!2d144.9537353153163!3d-37.81627917975153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1f9b1df%3A0x0!2zTGF0LTQwLjA5MTk2OCwxMzMuMDg5MDc1!5e0!3m2!1sen!2sus!4v1632744800121!5m2!1sen!2sus" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </section>
+
+        <!-- Employee Profiles Section -->
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="employee">
+                <img src="images/employee1.jpg" alt="John Doe - Rafting Guide">
+                <figcaption>Mike CArter - Rafting Guide</figcaption>
+            </div>
+            <div class="employee">
+                <img src="images/employee2.jpg" alt="Jane Smith - Customer Support">
+                <figcaption>Jane Smith - Customer Support</figcaption>
+            </div>
+            <div class="employee">
+                <img src="images/employee3.jpg" alt="Mike Johnson - Safety Instructor">
+                <figcaption>Mike Johnson - Safety Instructor</figcaption>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <p>Purpose of Message:</p>
+                <label><input type="radio" name="purpose" value="General Inquiry" required> General Inquiry</label>
+                <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label>
+                <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Whitewater Rafting | Created by Michael Akpan | <a href="images/contact-wireframe.png">View Wireframe</a></p>
+    </footer>
+
+</body>
+</html>
