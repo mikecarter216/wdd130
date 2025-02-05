@@ -3,57 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - White Water Rafting</title>
-    <link rel="stylesheet" href="styles/rafting.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>About Us - Rafting Adventures</title>
+    <link rel="stylesheet" href="rafting.css">
 </head>
 <body>
+
+    <!-- HEADER -->
     <header>
-        <img src="images/logo.png" alt="White Water Rafting Logo">
+        <img src="images/logo.png" alt="Rafting Logo" class="logo">
+        <h1>Rafting Adventures</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
+
+    <!-- MAIN CONTENT -->
     <main>
-        <div class="hero">
-            <img src="images/hero.jpg" alt="Exciting rafting adventures">
-            <h1>White Water Rafting</h1>
-            <article>
-                <img src="images/happy-client.jpg" alt="Happy client">
-                <p>Join us to explore thrilling adventures and experience nature like never before. We are dedicated to providing unforgettable rafting experiences and beautiful designs to brightening your experience.</p>
-            </article>
-        </div>
-        <section>
-            <h2>History</h2>
-            <p>White Water Rafting was founded with the mission to connect people with nature through thrilling and safe rafting experiences. Over the years, we have guided thousands of adventurers through some of the most beautiful and challenging rivers.</p>
+        <!-- HISTORY SECTION -->
+        <section class="history">
+            <h2>Our History</h2>
+            <p>Founded in 1998, Rafting Adventures has been providing top-tier whitewater experiences for thrill-seekers and nature lovers alike...</p>
+            <img src="images/history.jpg" alt="Rafting history image">
         </section>
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <img src="images/adventure1.jpg" alt="Adventure 1">
-            <img src="images/adventure2.jpg" alt="Adventure 2">
-            <img src="images/adventure3.jpg" alt="Adventure 3">
-            <img src="images/adventure4.jpg" alt="Adventure 4">
-            <img src="images/adventure5.jpg" alt="Adventure 5">
+
+        <!-- ADVENTURES SECTION -->
+        <section class="adventures">
+            <h2>Adventures</h2>
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/adventure1.jpg" alt="Los Dientes del Diablo">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure2.jpg" alt="Big Mallard">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure3.jpg" alt="Half Day Adventure">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure4.jpg" alt="Whitewater Canyon">
+                    <figcaption>Whitewater Canyon</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure5.jpg" alt="Rapid Rush">
+                    <figcaption>Rapid Rush</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
+
+    <!-- FOOTER -->
     <footer>
-        <p>© 2025 White Water Rafting | Created by Michael Akpan</p>
-        <nav class="sociallinks">
-            <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="Facebook">
-            </a>
-            <a href="https://twitter.com">
-                <img src="images/twitter.png" alt="Twitter">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="Instagram">
-            </a>
-        </nav>
+        <p>&copy; 2025 Rafting Adventures | All Rights Reserved</p>
+        <div class="socials">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        </div>
     </footer>
+
 </body>
 </html>
