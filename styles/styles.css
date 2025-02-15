@@ -1,47 +1,26 @@
-/* General styles */
-body {
-    padding: 10px;
+nav {
+  background-color: pink;
+  padding: 10px;
 }
 
 nav a {
-  color: rgba(214, 113, 113, 0.852);
-  padding: 10px;
+  color: pink;
   display: block;
+  padding: 20px;
 }
 
 h1 {
-  color: rgba(84, 120, 100, 0.084);
+  color: brown;
 }
 
-    main img {
-   width: 150px;
-   height: auto;
-   border: 1px solid rgba(12, 19, 26, 0.441);
-   padding: 2px;
-box-shadow: 0 0 30px rgba(69, 14, 14, 0.021);
+img {
+  width: 150px;
+  height: auto;
+  border: 1px solid white;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
 }
 
-  p{
- padding:0;
-  }
-  
-  aside {
-  width: 20em;
-  margin: 1em;
-  border: 11px solid rgba(46, 198, 46, 0.571); /* why use ryba instead of hex here? */
-  padding: 1em;
-  background-color: #799494;
-  color: #333;
-  text-align: center;
-  }
-
-  aside img {
-    width: 200px;
-    height: auto;
-  }
-
-  footer {
-    margin-top: 1em;
-    border-top: 1px solid #000;
-    text-align: center;
-  }
+p {
+  padding: 10px;
+}
