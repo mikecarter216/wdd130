@@ -1,40 +1,52 @@
-#contact-info, #employees, #contact-form {
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
-}
-
-.employee {
+.hero {
+    position: relative;
     text-align: center;
-    margin: 20px 0;
 }
 
-.employee img {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form input, form textarea {
+.hero img {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
+    height: auto;
 }
 
-button {
-    background-color: darkblue;
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
 }
 
-button:hover {
-    background-color: navy;
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.trips-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.trip {
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+}
+
+.trip img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trip h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.trip p {
+    font-size: 1em;
+    margin-bottom: 10px;
 }
