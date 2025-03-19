@@ -1,5 +1,6 @@
 /* Root Variables */
 :root {
+<<<<<<< HEAD
   --primary-color: Blue;
   --secondary-color: Green;
   --background-light: white;
@@ -17,12 +18,17 @@ body {
   padding: 0;
   background: var(--background-light);
   color: #333;
+=======
+  --primary-color: lightblue;
+  --heading-font: Arial, sans-serif;
+>>>>>>> 966680e2bfa8cb5c3c4843cd70314b2698970334
 }
 
 /* Header */
 header {
   display: grid;
   grid-template-columns: 150px auto;
+<<<<<<< HEAD
   align-items: center;
   padding: 15px;
   background-color: var(--primary-color);
@@ -58,11 +64,63 @@ nav ul li a:hover {
   background: var(--hover-color);
   border-radius: 5px;
   color: var(--text-color);
+=======
+  gap: 20px;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+header img {
+  width: 150px;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--heading-font);
+  background: #004466;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background: #006699;
+  border-radius: 5px;
+}
+
+/* Main Content */
+main {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 20px;
+>>>>>>> 966680e2bfa8cb5c3c4843cd70314b2698970334
 }
 
 /* Hero Section */
 .hero {
   position: relative;
+<<<<<<< HEAD
   text-align: center;
   background: url('hero-image.jpg') no-repeat center center/cover;
   height: 400px;
@@ -121,10 +179,125 @@ nav ul li a:hover {
 }
 
 /* Footer */
+=======
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-size: 2rem;
+  color: white;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hero article img {
+  float: right;
+}
+
+/* Trips Section */
+.trips-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.trip {
+  flex-basis: 30%;
+  min-width: 250px;
+  background: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.trip:hover {
+  transform: scale(1.05);
+}
+
+.trip h3 {
+  color: black;
+  margin-top: 10px;
+}
+
+/* Call-to-Action Section */
+.cta {
+  text-align: center;
+  padding: 20px;
+  background: var(--primary-color);
+  color: white;
+  margin-bottom: 20px;
+}
+
+.cta a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: white;
+  color: var(--primary-color);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.cta a:hover {
+  background: #0056b3;
+  color: lime;
+}
+
+/* Trip Table Section */
+.trip-table {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.trip-table th, .trip-table td {
+  padding: 10px;
+  border: 1px solid darkgreen;
+}
+
+.trip-table th {
+  background: var(--primary-color);
+  color: white;
+}
+
+.trip-table tr:nth-child(even) {
+  background: pink;
+}
+
+/* Footer Section */
+>>>>>>> 966680e2bfa8cb5c3c4843cd70314b2698970334
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
   background-color: var(--footer-bg);
   padding: 20px;
   color: var(--text-color);
@@ -153,10 +326,32 @@ footer .social-icons img {
   }
 
   .adventure-gallery {
+=======
+  background-color: var(--primary-color);
+  color: blue;
+  padding: 15px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .trips-container {
+>>>>>>> 966680e2bfa8cb5c3c4843cd70314b2698970334
     flex-direction: column;
     align-items: center;
   }
 
+<<<<<<< HEAD
+=======
+  .trip {
+    flex-basis: 80%;
+  }
+
+>>>>>>> 966680e2bfa8cb5c3c4843cd70314b2698970334
   footer {
     flex-direction: column;
     text-align: center;
