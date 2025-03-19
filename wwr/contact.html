@@ -29,7 +29,6 @@
             <p><strong>Phone:</strong> +1 (555) 123-4567</p>
             <p><strong>Email:</strong> <a href="mailto:info@wwrafting.com">info@wwrafting.com</a></p>
 
-            <!-- Google Map -->
             <div class="map-container">
                 <h3>Find Us Here</h3>
                 <iframe 
@@ -37,13 +36,12 @@
                     width="600" 
                     height="450" 
                     style="border:0;" 
-                    allowfullscreen="" 
+                    allowfullscreen 
                     loading="lazy">
                 </iframe>
             </div>
         </section>
 
-        <!-- Employee Profiles Section -->
         <section id="employees">
             <h2>Meet Our Team</h2>
             <div class="employee">
@@ -60,7 +58,6 @@
             </div>
         </section>
 
-        <!-- Contact Form Section -->
         <section id="contact-form">
             <h2>Send Us a Message</h2>
             <form action="submit_form.php" method="post">
@@ -72,14 +69,18 @@
 
                 <fieldset>
                     <legend>Reason for Contact:</legend>
-                    <input type="radio" id="general" name="reason" value="General Inquiry" required>
-                    <label for="general">General Inquiry</label>
-
-                    <input type="radio" id="reservation" name="reason" value="Reservation Question">
-                    <label for="reservation">Reservation Question</label>
-
-                    <input type="radio" id="suggestion" name="reason" value="Website Suggestion">
-                    <label for="suggestion">Website Suggestion</label>
+                    <label>
+                        <input type="radio" name="reason" value="General Inquiry" required>
+                        General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="reason" value="Reservation Question">
+                        Reservation Question
+                    </label>
+                    <label>
+                        <input type="radio" name="reason" value="Website Suggestion">
+                        Website Suggestion
+                    </label>
                 </fieldset>
 
                 <label for="message">Your Message:</label>
@@ -95,10 +96,8 @@
         </section>
     </main>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2025 Whitewater Rafting | Created by Michael Akpan | <a href="images/contact-wireframe.png">View Wireframe</a></p>
     </footer>
-
 </body>
 </html>
