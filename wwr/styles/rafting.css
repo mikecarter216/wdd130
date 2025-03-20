@@ -12,6 +12,10 @@ header {
     text-align: center;
     width: 100%;
 }
+header img {
+    width: 300px;
+    height: 250px;
+}
 
 nav {
     display: flex;
@@ -112,17 +116,20 @@ h1 {
 
 footer {
     background: #005f73;
-    color: white;
+    color: rgb(251, 245, 245);
     text-align: center;
     padding: 1.5rem 0;
     width: 100%;
-    margin-top: 2rem;
-    position: relative;
+    margin-top: 0rem;
+    position: flex;
     bottom: 0;
+}
+ footer img {
+        width: 25px;
 }
 
 footer p {
-    margin: 5px 0;
+    margin: 1px 0;
 }
 
 footer a {
